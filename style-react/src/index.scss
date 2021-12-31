@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin : 0;
+}
+.container {
+    margin : 0 auto;
+    width : 300px;
+    height : 200px;
+    text-align: center;
+    background-color: rgb(4, 63, 83);
+}
+#display {
+    text-align: center;
+    font-size: 80px;
+}
+.container > button {
+    font-size: 15px;
+    background-color: lightcoral;
+    padding:15px;
+    margin : 5px;
+}
+
+

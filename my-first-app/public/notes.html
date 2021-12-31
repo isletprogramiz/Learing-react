@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>States<br>
+        The state is an instance of React Component Class can be defined as an object of a set of observable properties
+        that control the behavior of the component. In other words, the State of a component is an object that holds
+        some information that may change over the lifetime of the component. For example, let us think of the clock that
+        we created in this article, we were calling the render() method every second explicitly, but React provides a
+        better way to achieve the same result and that is by using State, storing the value of time as a member of the
+        component’s state. We will look into this more elaborately later in the article.</p>
+
+    <p>State is a plain JavaScript object used by React to represent an information about the component's current
+        situation. It's managed in the component (just like any variable declared in a function).</p>
+    <p>What are the differences between props and state?
+        Finally, let’s recap and see the main differences between props and state:
+
+        Components receive data from outside with props, whereas they can create and manage their own data with state
+        Props are used to pass data, whereas state is for managing data
+        Data from props is read-only, and cannot be modified by a component that is receiving it from outside
+        State data can be modified by its own component, but is private (cannot be accessed from outside)
+        Props can only be passed from parent component to child (unidirectional flow)
+        Modifying state should happen with the setState ( ) method</p>
+
+
+        <p>lass Clock extends React.Component {
+            constructor(props) {
+              super(props);
+              this.state = {date: new Date()};
+            }
+          
+            render() {
+              return (
+                <div>
+                  <h1>Hello, world!</h1>
+                  <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+                </div>
+              );
+            }
+          }</p>
+          <p>state jo value initailize krta hai component ko usko hm contructor method k andar likht hai</p>
+
+          <!-- //ReactDom.render takes two argument 1st is the component (or anyhtml u want to render ) 2nd is the destination where u want to render
+          //self closing 
+          
+          //JSX is an extension of js language based on ES6. JSx during compile time convert js into html
+          //har component k liye naya file.js bhi bnaya jaa skta hai
+          
+          // { } insdie curly braces regular js can be used, or caluclulation can be performed
+          
+          // har ek component k andar ek contructor method ho skta hai 
+          // jab bhi ye class initiate hga ye contructor method chalega -->
+
+        </body>
+
+</html> -->
